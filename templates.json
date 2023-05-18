@@ -7,7 +7,7 @@
             "description": "esphome",
             "platform": "linux",
             "repository": {
-                "url": "https://git.newmind.at/portainer/portainer-compose.git",
+                "url": "https://github.com/newmindJP/portainer-compose.git",
                 "stackfile": "esphome/docker-compose.yml"
             }
         }
