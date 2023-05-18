@@ -1,0 +1,14 @@
+version: '3'
+services:
+  esphome:
+    container_name: esphome
+    image: esphome/esphome
+    volumes:
+      - /data/docker/esphome:/config
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - USERNAME={{ ESPHOME_USERNAME }}
+      - PASSWORD={{ ESPHOME_PASSWORD }}
+    restart: always
+    privileged: true
+    network_mode: host
