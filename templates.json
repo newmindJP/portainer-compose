@@ -2,7 +2,7 @@
     "version": "2",
     "templates": [
         {
-            "type": 2,
+            "type": 3,
             "title": "esphome",
             "description": "esphome",
             "platform": "linux",
