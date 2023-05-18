@@ -1,0 +1,15 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "type": 2,
+            "title": "esphome",
+            "description": "esphome",
+            "platform": "linux",
+            "repository": {
+                "url": "https://git.newmind.at/portainer/portainer-compose.git",
+                "stackfile": "esphome/docker-compose.yml"
+            }
+        }
+    ]
+}
